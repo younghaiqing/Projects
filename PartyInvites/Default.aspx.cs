@@ -20,7 +20,7 @@ namespace PartyInvites
                     ResponseRepository.GetRepository().AddResponse(rsvp);
                     if (rsvp.WillAttend.HasValue && rsvp.WillAttend.Value)
                     {
-                        Response.Redirect("seeyouthere.html");
+                        Response.Redirect("seeyouthere.html");      
                     }
                     else
                     {
